@@ -1,0 +1,12 @@
+/*modules avoid NAMING CONFLICTS*/
+.btn{
+  padding: 10px 20px;
+  background-color: #90c5ff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-color: #4ea4ff;
+  cursor: pointer;
+}
