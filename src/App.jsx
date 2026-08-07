@@ -6,16 +6,21 @@
 //-------------------------------------------------------------
 
 
+
+
 //Card-Components
 // import Card from "./02-Card-Components/Card";
 
 // -------------------------------------------------------------
 
 
+
+
 //CSS-Styling
 // import Button from "./03-CSS-Styling/Button";
 
 // -------------------------------------------------------------
+
 
 
 
@@ -28,32 +33,37 @@
 
 
 //Conditional Rendering
-import UserGreeting from "./05-Conditional-Rendering/UserGreeting";
+// import UserGreeting from "./05-Conditional-Rendering/UserGreeting";
 
 // -------------------------------------------------------------
 
 
 
 
-
-
-// //Render Lists
+//Render Lists
 // import List from "./06-Render-Lists/List";
+
+
+
+
+{/* CLICK EVENT */}  
+import ClickButton from "./07-Click-Events/ClickButton";
+import ProfilePic from "./07-Click-Events/ProfilePic";
 
 function App() {
 
 
-//   const fruits= [{name: "Apple", calories: 95}, 
-//                {name: "Banana", calories: 105}, 
-//                {name: "Mango", calories: 200}, 
-//                {name: "Grapes", calories: 150}, 
-//                {name: "Orange", calories: 85}];
+  // const fruits= [{name: "Apple", calories: 95}, 
+  //              {name: "Banana", calories: 105}, 
+  //              {name: "Mango", calories: 200}, 
+  //              {name: "Grapes", calories: 150}, 
+  //              {name: "Orange", calories: 85}];
 
-//   const vegetables= [{name: "Carrot", calories: 25},
-//                     {name: "Broccoli", calories: 55},
-//                     {name: "Spinach", calories: 20},
-//                     {name: "Cauliflower", calories: 25},
-//                     {name: "Cabbage", calories: 25}];
+  // const vegetables= [{name: "Carrot", calories: 25},
+  //                   {name: "Broccoli", calories: 55},
+  //                   {name: "Spinach", calories: 20},
+  //                   {name: "Cauliflower", calories: 25},
+  //                   {name: "Cabbage", calories: 25}];
 
   return(
     <>
@@ -82,22 +92,33 @@ function App() {
 
 
     {/*CONDITIONAL RENDERING*/}
-    <UserGreeting isLoggedIn={true}/>
-    <UserGreeting isLoggedIn={false}/>
+    {/* <UserGreeting isLoggedIn={true}/>
+    <UserGreeting isLoggedIn={false}/> */}
 
 
 
     {/*RENDER LISTS*/}
-    {/* <List/> gives a long string */}
-{/* 
-    {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null} {/* passing the array of objects as props to the List component 
-                                               list of fruits is given by items, and ccategory is going to be the heading*/}
 
-    {/* {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null}  {/* passing the array of objects as props to the List component
-                                               list of vegetables is given by items, and ccategory is going to be the heading*/}                    
+    {/* {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null} 
+    
+    {/* passing the array of objects as props to the List component 
+                                               list of fruits is given by items, and category is going to be the heading*/}
 
-    </> //fragment- used to wrap multiple elements without adding extra nodes to the DOM
-  );
+    {/* {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null}   */}
+    
+    {/* passing the array of objects as props to the List component
+                                               list of vegetables is given by items, and category is going to be the heading */}
+
+
+
+
+    {/*CLICK EVENT*/}
+    <ClickButton/> <br/>
+    <ProfilePic/>
+
+    
+    </> 
+  )
 }
 
 export default App

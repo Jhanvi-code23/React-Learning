@@ -54,7 +54,11 @@ function List(props){
 const category = props.category;
 const itemsList = props.items;
 
-const listItems = itemsList.map(item => <li key={item.name}> {item.name}: <b>{item.calories}</b> calories </li>); //we used key prop to give a unique identifier to each list item. it is like primary key in sql.
+const listItems = itemsList.map(item => <li 
+                                 key={item.name}> 
+                                 {item.name}: <b>{item.calories}</b> 
+                                 calories 
+                                 </li>); //we used key prop to give a unique identifier to each list item. it is like primary key in sql.
 
 return( <>
     <h3 className="list-category">{category}</h3>
