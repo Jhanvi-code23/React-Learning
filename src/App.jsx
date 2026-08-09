@@ -47,8 +47,14 @@
 
 
 {/* CLICK EVENT */}  
-import ClickButton from "./07-Click-Events/ClickButton";
-import ProfilePic from "./07-Click-Events/ProfilePic";
+// import ClickButton from "./07-Click-Events/ClickButton";
+// import ProfilePic from "./07-Click-Events/ProfilePic";
+
+
+
+{/* USE STATE HOOK */}
+// import MyComponent from "./08-useState()-Hook/MyComponent";
+import Counter from "./08-useState()-Hook/Counter";
 
 function App() {
 
@@ -113,12 +119,16 @@ function App() {
 
 
     {/*CLICK EVENT*/}
-    <ClickButton/> <br/>
-    <ProfilePic/>
+    {/* <ClickButton/> <br/>
+    <ProfilePic/>*/}
 
-    
+
+
+    {/*USE STATE HOOK*/}
+    {/* <MyComponent/> */}
+    <Counter/>
     </> 
-  )
+  );
 }
 
 export default App
