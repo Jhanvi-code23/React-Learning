@@ -54,7 +54,19 @@
 
 {/* USE STATE HOOK */}
 // import MyComponent from "./08-useState()-Hook/MyComponent";
-import Counter from "./08-useState()-Hook/Counter";
+// import Counter from "./08-useState()-Hook/Counter";
+
+
+
+
+{/* onChange Event Handler */}
+// import MyComponent from "./09-onChange-Event-Handler/MyComponent";
+
+
+
+
+{/* Color Picker App */}
+import ColorPicker from "./10-Color-Picker-App/ColorPicker";
 
 function App() {
 
@@ -126,7 +138,18 @@ function App() {
 
     {/*USE STATE HOOK*/}
     {/* <MyComponent/> */}
-    <Counter/>
+    {/* <Counter/> */}
+
+
+
+
+    {/*onChange Event Handler*/}
+    {/* <MyComponent/> */}
+
+
+
+    {/*Color Picker App*/}
+    <ColorPicker/>
     </> 
   );
 }

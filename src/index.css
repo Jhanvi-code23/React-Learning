@@ -144,3 +144,40 @@
   border: 1px solid #000000;
   border-radius: 5px;
 }
+
+
+
+/* Color Picker App */
+.color-picker{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  color:rgb(128, 0, 47);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.color-picker-display{
+  font-size:1.5em;
+  color:rgb(0, 0, 0);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width:200px;
+  height:200px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+input[type="color"] {
+  width: 100px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
