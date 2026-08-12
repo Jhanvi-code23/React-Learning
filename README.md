@@ -25,9 +25,9 @@ It includes notes, practice code, mini projects, and exercises covering React fu
 
 ### 🟡 User Interaction
 
-- [ ] Click Events
-- [ ] React Hooks
-- [ ] useState()
+- [x] Click Events
+- [x] React Hooks
+- [x] useState()
 - [ ] Updater Functions
 - [ ] Objects in State
 - [ ] Arrays in State
