@@ -28,7 +28,7 @@ It includes notes, practice code, mini projects, and exercises covering React fu
 - [x] Click Events
 - [x] React Hooks
 - [x] useState()
-- [ ] Updater Functions
+- [x] Updater Functions
 - [ ] Objects in State
 - [ ] Arrays in State
 - [x] onChange Event
