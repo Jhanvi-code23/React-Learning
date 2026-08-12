@@ -66,7 +66,13 @@
 
 
 {/* Color Picker App */}
-import ColorPicker from "./10-Color-Picker-App/ColorPicker";
+// import ColorPicker from "./10-Color-Picker-App/ColorPicker";
+
+
+
+{/* Updater Functions */}
+import MyComponent from "./11-Updater-Functions/MyComponent";
+
 
 function App() {
 
@@ -149,7 +155,12 @@ function App() {
 
 
     {/*Color Picker App*/}
-    <ColorPicker/>
+    {/* <ColorPicker/> */}
+
+
+
+    {/* Updater Functions */}
+    <MyComponent/>
     </> 
   );
 }
