@@ -31,8 +31,8 @@ It includes notes, practice code, mini projects, and exercises covering React fu
 - [ ] Updater Functions
 - [ ] Objects in State
 - [ ] Arrays in State
-- [ ] onChange Event
-- [ ] Color Picker Project
+- [x] onChange Event
+- [x] Color Picker Project
 - [ ] To-Do List Project
 
 ---
@@ -74,10 +74,7 @@ It includes notes, practice code, mini projects, and exercises covering React fu
 - [ ] Stop Watch
 - [ ] Digital Clock
 - [ ] To-Do List
-- [ ] Color Picker
-- [ ] Weather App
-- [ ] Calculator
-- [ ] Other Practice Projects
+- [x] Color Picker
 
 ---
 
