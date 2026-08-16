@@ -33,7 +33,6 @@ function MyComponent() {
         <button onClick={decrement}>Decrement</button>
         <button onClick={reset}>Reset</button>
         <button onClick={increment}>Increment</button>
-        
     </div>
 );
 

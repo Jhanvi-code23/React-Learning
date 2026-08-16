@@ -71,8 +71,12 @@
 
 
 {/* Updater Functions */}
-import MyComponent from "./11-Updater-Functions/MyComponent";
+// import MyComponent from "./11-Updater-Functions/MyComponent";
 
+
+
+{/* Update objects in state */}
+import MyComponent from "./12-Update-Objects-in-State/MyComponent";
 
 function App() {
 
@@ -160,6 +164,11 @@ function App() {
 
 
     {/* Updater Functions */}
+    {/* <MyComponent/> */}
+
+
+
+    {/* Update objects in state */}
     <MyComponent/>
     </> 
   );
