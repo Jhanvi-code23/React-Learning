@@ -3,6 +3,8 @@
 // import Footer from "./01-Basics/Footer.jsx"
 // import Food from "./01-Basics/Food"; 
 
+// import MyComponent from "./13-Update-Arrays-in-State/MyComponent";
+
 //-------------------------------------------------------------
 
 
@@ -76,7 +78,13 @@
 
 
 {/* Update objects in state */}
-import MyComponent from "./12-Update-Objects-in-State/MyComponent";
+// import MyComponent from "./12-Update-Objects-in-State/MyComponent";
+
+
+
+{/* Update Array in State */}
+import MyComponent from "./13-Update-Arrays-in-State/MyComponent";
+
 
 function App() {
 
@@ -169,6 +177,11 @@ function App() {
 
 
     {/* Update objects in state */}
+    {/* <MyComponent/> */}
+
+
+
+    {/* Update Array in State */}
     <MyComponent/>
     </> 
   );
